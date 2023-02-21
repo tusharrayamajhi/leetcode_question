@@ -1,6 +1,7 @@
 import java.util.*;
 
 public class Q412 {
+    
     public List<String> FizzBuzz(int n){
         List<String> answer = new ArrayList<>(n);
         for(int i = 1; i <= n;i++){
@@ -16,10 +17,7 @@ public class Q412 {
                 answer.add(String.valueOf(i));
             }
         }
+        
         return answer;
-    }
-    public static void print(int )
-    public static void main(String[] args) {
-        int n = 5;
     }
 }
